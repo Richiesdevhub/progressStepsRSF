@@ -70,11 +70,12 @@ body {
     align-items: center;
     justify-content: center;
     border: 3px solid var(--line-border-empty);
-    transition: .4s easy;
+    transition: .5s easy;
 }
 
 .circle.active {
     border-color: var(--line-border-fill);
+    transition: .5s easy;
 }
 
 .btn {
